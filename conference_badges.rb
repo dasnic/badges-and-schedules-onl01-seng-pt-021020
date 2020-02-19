@@ -11,8 +11,8 @@ end
 end
 
 
-def assign_rooms(attendees)
-  arr_of_name.map do |attendee|
+def assign_rooms(arr_of_names)
+  arr_of_names.map do |attendee|
 end
 
 def printer(attendees)
