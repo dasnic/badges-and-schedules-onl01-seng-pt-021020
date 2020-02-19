@@ -17,7 +17,7 @@ def assign_rooms(arr_of_names)
     puts Hello, #{attendee}! You'll be assigned to room #{counter}!
     counter += 1
  end
-
+end
 
 def printer(attendees)
   
