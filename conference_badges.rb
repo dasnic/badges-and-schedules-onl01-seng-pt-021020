@@ -12,7 +12,7 @@ end
 
 
 def assign_rooms(arr_of_names)
-  counter
+  counter = 1
   arr_of_names.map do |attendee|
 end
 
