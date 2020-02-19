@@ -14,7 +14,7 @@ end
 def assign_rooms(arr_of_names)
   counter = 1
   arr_of_names.map do |attendee|
-    
+   "Hello, #{! You'll be assigned to room 1!" 
     room counter += 1
  end
 end
