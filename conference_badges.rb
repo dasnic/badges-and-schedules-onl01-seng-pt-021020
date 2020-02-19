@@ -11,16 +11,19 @@ end
 end
 
 
-def assign_rooms(arr_of_names)
-  counter = 0
-  arr_of_names.map do |attendee|
-   "Hello, #{attendee}! You'll be assigned to room #{counter += 1}!" 
-    room counter += 1
- end
+def assign_rooms(attendees)
+  room=0
+  attendees.collect do |name|
+    room+=1
+    "Hello, #{name}! You'll be assigned to room #{room}!"
+  end
 end
 
-def printer(arr_of_attendees)
-  batch_badge_creator(arr_of_attendees).each {|phrase| puts phrase}
-  assign_rooms(arr_of_attendees).each {|phrase| puts phrase}
-  printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
-end
+def printer(attendees)
+  batch_badge_creator(attendees).each do |value|
+    puts value
+  end
+  assign_rooms(attendees).each do |value|
+    puts value
+  end
+end 
