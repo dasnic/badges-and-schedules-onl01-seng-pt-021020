@@ -14,7 +14,7 @@ end
 def assign_rooms(arr_of_names)
   counter = 1
   arr_of_names.map do |attendee|
-    puts 
+    puts Hello, Edsger! You'll be assigned to room 1!
 end
 
 def printer(attendees)
